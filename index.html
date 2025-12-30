@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year ❤️</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  background: linear-gradient(120deg,#ffd6e8,#e0c3fc,#c2e9fb);
+  font-family:'Playfair Display', serif;
+  text-align:center;
+  overflow-x:hidden;
+  color:#333;
+}
+
+/* Sparkles */
+.sparkle{
+  position:fixed;
+  width:6px;
+  height:6px;
+  background:white;
+  border-radius:50%;
+  opacity:0.7;
+  animation:float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(100vh) scale(0);}
+  100%{transform:translateY(-10vh) scale(1);}
+}
+
+/* Heading */
+h1{
+  margin-top:60px;
+  font-family:'Pacifico', cursive;
+  font-size:3.2rem;
+}
+
+.subtitle{
+  font-size:1.2rem;
+  margin:15px 20px 40px;
+}
+
+/* Gallery */
+.gallery{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:30px;
+  padding:40px;
+}
+
+.polaroid{
+  background:white;
+  padding:15px 15px 35px;
+  width:220px;
+  box-shadow:0 15px 25px rgba(0,0,0,0.2);
+  transform:rotate(-2deg);
+  transition:0.4s;
+}
+
+.polaroid:nth-child(even){
+  transform:rotate(3deg);
+}
+
+.polaroid:hover{
+  transform:scale(1.05) rotate(0deg);
+}
+
+.polaroid img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+/* Note Section */
+.note{
+  background:rgba(255,255,255,0.6);
+  margin:40px auto;
+  max-width:600px;
+  padding:30px;
+  border-radius:20px;
+  backdrop-filter:blur(10px);
+}
+
+.note h2{
+  font-family:'Pacifico', cursive;
+  margin-bottom:20px;
+}
+
+/* Paragraph styles */
+.para1{
+  font-family:'Pacifico', cursive;
+  font-size:1.4rem;
+  margin-bottom:20px;
+}
+
+.divider{
+  width:80px;
+  height:2px;
+  background:#ff9ebd;
+  margin:20px auto;
+  border-radius:10px;
+}
+
+.para2{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+
+.para3{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+} 
+
+.para4{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para5{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para6{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para7{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para8{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para9{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para10{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para11{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para12{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para13{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para14{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para15{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para16{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para17{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para18{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para19{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para20{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para21{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+
+.para22{
+  font-size:1.05rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+footer{
+  margin:40px 0 20px;
+  font-size:0.9rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- Sparkles Script -->
+<script>
+for(let i=0;i<40;i++){
+  let s=document.createElement("div");
+  s.className="sparkle";
+  s.style.left=Math.random()*100+"vw";
+  s.style.animationDuration=(3+Math.random()*5)+"s";
+  document.body.appendChild(s);
+}
+</script>
+
+<h1>Happy New Yearrrrrr myyyyy anshiiiiiiiiiii ❤️</h1>
+<p class="subtitle"> i lobbbbbbbb youuu soo muchhhhhh ✨</p>
+
+<!-- Photos -->
+<div class="gallery">
+  <div class="polaroid">
+    <img src="photo1.jpeg" alt="">
+  </div>
+
+  <div class="polaroid">
+    <img src="photo2.jpeg" alt="">
+  </div>
+
+  <div class="polaroid">
+    <img src="photo3.jpeg" alt="">
+  </div>
+</div>
+
+<!-- Love Note -->
+<div class="note">
+  <h2>For My lady 💌</h2>
+
+  <p class="para1">
+            I babe happy new year year jaanu babekast year has finally came too an end and i just wanna thank you for evrytyhing
+            you saved me anshi from myself from evrything you made me a better person you made me a better human being babe without you 
+            i dont i wouldnt have been the person i am right now thank you for always being their for methank your forvinging me each and evrytime at 
+            for my contless mistakes thank you anshi thank you for motivating me to be a better person and a better man thank you for helping me at 
+            everystep thank you  for insipiring me too work harded whenever i saw you work your ass off whenever i saw you working harder and harder it made me inspire 
+            and work harder and harder babe thank you for making me feel loved anshi thank you for giving the love i have never felt thank you for bringing happiness in my 
+            life thank you for making me fell loved thank you for bringing colours in my life i love you so so much anshi without you i wouldnt have even been alive thank 
+            you for being my girlfriend anshi. Babe i also wanna say  i am sorry for everything i have done bad too you i am just sorry babe i am sorry for evrytime i hurt you made yoy cry 
+            i am just sorry babe but you everytime forgave me i am just sorry babe i am sorry i love you anshi and babe i promise i promise i wont let you regret on the decion of dating me 
+            i am just sorry anshi but i promise babe ill improve amd ill do everything too make you happy jaanu i love you anshi i am sorry that i hurted you so much babe ill improve anshi 
+            i promise i promise ill ame youy the happiest woman one day i promise ill make this happier for you anshi i am sorry jaanu.
+            Jaanu i wanna say another thing babe i believe in you and i trust you janu i know you can do it you will do it i kn ow youll get a good job babe i know youll do great in life earn a loads of money 
+            have a home of your own and prove everyone wrong i kn ow jaanu and i know babe how hard thsi year was for youy babe but just few years dont worry asnhi sabh gtheek hoga youll have a job of your own babe i know 
+            sabh acha hoga jaanu i know babe i know and i believe in you anshi i do you can do it babe youll be very very successful life babe happyy neww yearr i loveee youuu lets togethewr both of us conquer this year. here jaanuu
+            i madee a compilation of all my 20 poems aboutt youu there aree new oness too i lobbb youuu💖
+  </p>
+
+  <div class="divider"></div>
+
+  <p class="para2">
+    1.you were like a beautiful sunny day in the middle of winters 
+        You weren't expected but you were all what i needed 
+        You left me yearning for you day and night 
+        Dreaming for you until it's midnight
+
+        I see you in my dreams all night 
+        just want you to gaze at you forever until it's sunny and bright 
+        Maybe it's just your beautiful eyes which makes me lose my eyesight 
+<div class="divider"></div>
+
+        2.Apki khubhsurati mai kho jata hu 
+        Apko mai din bhar niharna chahta hu 
+        Niharte hue keval apki bate suna chahta hu 
+        Tumhare ankho Mai dubta jata hu 
+        tum mai , mai kho jata hu
+
+        <div class="divider"></div>
+        3.i want to feel love I want to yearn forever 
+        I wish to be loved sick 
+        I hope to long and yearn forever 
+        It Gives me butterflies whatsoever 
+
+        Slowly and steadily I want to fall in the abyss of love with someone whom I can dream forever 
+        I want to wrap arms around her and gently go into the goodnight together 
+<div class="divider"></div>
+
+        4.abh hum milte hai mai tumhe keval niharata jata hu 
+        Tumhe kho jata hu 
+        Aspas ki duniya bhul jata hu 
+        Mai bas tumhe aur apne ko sath dekh pata hu 
+
+        Tumhar sath apna age ka jeevan jeena chahata hu 
+        Tumhare pyar mai 
+        Mai din ba din bas girta jata hu bas girta jata hu 
+
+        Tumhare awaz ko bas suna chahta hu
+        Tumhe sunte tumhare khubsurat ki tarif karna chahata hu 
+        roz tumhare baate sune ke liye tadap jata hu 
+        Kya matlab tumhe apni duniya ban chuka hu
+
+        <div class="divider"></div>
+        5.You gave me the bliss that i thought I'll never feel again 
+        You gave me the happiness which made me see good in the world again 
+        You wiped the sadness and loneliness in me 
+
+        You have become my whole world and all I can See is your future with me 
+        I want you to be with me 
+        I wish right now you could be beside me,
+
+        You have become everything for me 
+        I wish to make you the happiest that you have ever been 
+<div class="divider"></div>
+        6. wait for your messages every day 
+        I wait for the day I'll see you 
+        I wait for us to meet again 
+        I wait for our lips to touch again 
+        I yearn for you everyday 
+        I yearn to see you in front of me 
+        This yearning for you is keeping me alive 
+        You are my life line through which I survive 
+        You are my oxygen that keeps me alive 
+<div class="divider"></div>
+        
+        7.Ansshita 
+        I wanna get lost in your beautiful eyes 
+        These eyes of your hypnotizes me 
+
+        I wanna just look into your eyes forever 
+        And forget everything around us 
+
+        Your eyes are sparkling and bright 
+        Makeing my world alight
+
+<div class="divider"></div>
+        8.Your eyes hypnotize me 
+        Transporting me into a world which I haven't seen 
+        Your eyes blinds me make me think just how divine someone could even be 
+
+        Your eyes are sparkling bright please be mine so  that they could be the first and last thing I see every day and every nigh
+
+<div class="divider"></div>
+        9.khud ko mere ankho se dekho tabh apni khubsurati ko janogi 
+        Mere zindagi mai tumahari ehmiyat to phenchanogi 
+        Tum mere andhere rato ka chand ban chuki ho mere duniya ban chuki ho 
+
+        Tum mera sabh ho mere kushi ka karan ho 
+        Abh tumhe kush rakhna hi mere jivan ka lakshya hai 
+        Kabhi tumhari muskurat ho gayab nahi hone dunga 
+
+        Tumhari kushi dekhne ke liye kuch bhi karunga
+        Tumse he humesha pyar karunga 
+        Humesha tumhare sath chalunga 
+<div class="divider"></div>
+        10.You are everything to me 
+        You are my reason to be
+         You are what keeps me alive 
+        Your happiness is what keeps me thrive 
+
+        Your smile is like oxygen to me 
+        Your eyes are what every morning I want to see
+
+        I want to live to be with you 
+        I want to wake up with you 
+        I dream to grow old with you 
+        You are just perfect for me
+        you are everything I asked god from a girl with whom I wanted to be 
+<div class="divider"></div>
+        
+        11.i am not perfect but I'll love you till death 
+        Ill love you until my last breath 
+        I'll become the man you want 
+        I'll show you how you deserve to be loved 
+        I'll try to make you the happiest woman i have ever seen
+<div class="divider"></div>
+        12.i stare at you as the moonlight rises and the star arises  
+        Walking through the streets with you forgetting everything else but you
+        Distracted by you as your beauty shadows the moon and the stars too 
+        alighting my life like i never knew 
+<div class="divider"></div>
+        13.My eyes can't wait to be blessed by your glimpse 
+        My heart can't wait to skip a beat at your presence 
+        My lips can't wait to get the feeling of your lips 
+        My arms are dying to be wrapped around you 
+        I am dying to feel you 
+        I am dying to be around you 
+        To get the internal bliss to be with and beside you
+<div class="divider"></div>
+        14. Wherever I am I miss you,
+        Wherever I go all i want is you,
+        Longing for you just grows deeper and deeper, 
+        Yearning for the moment when it's just me and you 
+
+        I long for the nights where our arms are wrapped around ,
+        In a dimension where all that exists is me and you 
+        Far from this busy world and the race of life where we can be ourselves by each other's  side 
+<div class="divider"></div>
+        15.tumahri ankho Mai kho jata hu 
+        tumhare sath khud ko pata hu sabh bhul jata hu sirf aur sirf tumhe chata hu 
+        Tumhare sath ka sakun 
+<div class="divider"></div>
+        16. your eyes are pretty as a starry night sky
+        Your smile a bliss which no one can deny 
+        Your beautiful little noss is the prettiest thing ever seen 
+        you are the angel of the heavens which cant been seen 
+        But still you are in front of me giving the the happiness which i thought never could be 
+
+
+        Your sweetness make me melt, you are just the kindest person i have ever met 
+
+        Your happiness have become my purpose  
+        Keeping you happy was what I was meant to be 
+
+        I ll do anything your you my lady 
+        just say it whatever it may be
+<div class="divider"></div>
+        17.curled up hair swaying in air 
+        The brown dark eyes calling me dear 
+        Her beautiful bright smile lighting us mere 
+
+        I yearn for my goddess each moment of every year 
+        You are my lady i am your slave
+        I'll do any task which you crave
+
+        Keeping you happy is sole purpose of my life 
+
+        You are the angel of my dreams  beautiful white dress , gorgeous black hair and hypnotizing brown eyes which brings people out of despair 
+
+        You are my everything , you are my world 
+        I love you like the stars love the endless night unfurled  
+ <div class="divider"></div>
+
+        18.Oh my lady beautiful lady let me be just a knight at your service 
+        let me be your footslave forever thee shall command me forever let me be just your guard forever 
+ 
+        me shall fight for you till the night tether i may be in your use my lady thats this knight's dream forever 
+        ill do anything too see that face of yours smile forever 
+        thee may accept this slave of your ill do anything to show this love for yours 
+
+<div class="divider"></div>
+        19.Please bless me with your beauty forever 
+        let me be your slave forever 
+
+        ill be your knight you be my queen 
+
+        my lady just give me a command 
+        ill kill for you my lady 
+
+<div class="divider"></div>
+        20.You are the goddess who came down from heaven for me 
+        you are the one ill worship every second and every minute too be 
+
+        youll be my queen ill be your slave 
+        you shall give me command and i shall follow them without vain 
+
+        oh my goddess you love me ? but how could that be 
+        i am just a peasent and you are the goddess from skies 
+        what can you see in this puny peasent like i 
+
+
+        i am just slave of your ill fulfill my duties 
+        this peasent shall do whatever you say my lady
+  </p>
+</div>
+
+<footer>
+  Made by your twink  ❤️ 
+</footer>
+
+</body>
+</html>
